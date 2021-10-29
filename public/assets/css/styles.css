@@ -1,0 +1,116 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:600,700,800);
+@import url(https://fonts.googleapis.com/css2?family=Satisfy&display=swap);
+
+/* ===============================================
+   General styles
+   ============================================== */
+
+.bg-carne {
+    background: #ecdac4;
+}
+
+.navbar {
+    padding: 1rem 0;
+    font-size: 1rem;
+}
+
+.cursivas {
+    font-family: 'Satisfy', cursive;
+    font-size: 2.5rem;
+}
+
+.cursivas-sm {
+    font-family: 'Satisfy', cursive;
+    font-size: 1.5rem;
+}
+
+.navbar-title {
+    font-size: 1rem;
+}
+
+.li-important {
+    border-color: #aaaaaa;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: dashed;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(117, 20, 20);
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    line-height: 1.4;
+    font-family: "Raleway", sans-serif;
+}
+
+hr {
+    display: block;
+    /* border: 1; */
+    /* margin: 1em 0; */
+    /* padding: 0; */
+    /* background-image: -webkit-linear-gradient(left, #eee, #555, #eee); */
+    /* background-image: -moz-linear-gradient(left, #fff, #555, #fff); */
+    /* background-image: -ms-linear-gradient(left, #fff, #555, #fff); */
+    /* background-image: -o-linear-gradient(left, #fff, #555, #fff); */
+    left: 20%;
+    position: relative;
+    border: none;
+}
+
+.intro {
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    text-align: center;
+    background: url(../img/header_bg.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.info-bg {
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    background: url(../img/header_bg.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.section {
+    padding: 1.5rem 0;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+
+/* ========= SECCION DE REVEAL -> CONECTADO CON JS ==================== */
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
