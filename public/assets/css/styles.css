@@ -82,7 +82,18 @@ hr {
     width: 100%;
     height: 60vh;
     text-align: center;
-    background: url(../img/header_bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/fecha.jpg) no-repeat bottom scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.lugar-bg {
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    background: url(../img/fecha.jpg) no-repeat bottom scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -102,7 +113,7 @@ hr {
 }
 
 
-/* ========= SECCION DE REVEAL -> CONECTADO CON JS ==================== */
+/* ========= SCROLL REVEAL -> CONECTADO CON JS ==================== */
 .reveal {
     position: relative;
     transform: translateY(150px);
@@ -113,4 +124,79 @@ hr {
 .reveal.active {
     transform: translateY(0px);
     opacity: 1;
+}
+
+.contenido-window {
+    padding: 5rem 0;
+    margin: 1rem 0;
+    border-radius: 1rem;
+}
+
+.exposiciones {
+    background: url(../img/contenido/exposiciones.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.pasarela {
+    background: url(../img/contenido/pasarela.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.conferencias {
+    background: url(../img/contenido/conferencias.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.alimentos {
+    background: url(../img/contenido/zona-alimentos.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.sustentable {
+    background: url(../img/contenido/boda-sustentable.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.amenidades {
+    background: url(../img/contenido/amenidades.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.lgbt {
+    background: url(../img/contenido/lgbt.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.centro-morelos {
+    background: url(../);
+}
+
+
+h3 {
+    color: white;
+}
+
+.bg-red {
+    background: rgba(117, 20, 20, 0.5);
 }
