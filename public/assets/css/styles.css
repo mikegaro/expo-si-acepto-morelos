@@ -9,8 +9,18 @@
     background: #DF1A8D
 }
 
+.bg-header-gradient {
+    background: rgb(240, 162, 178);
+    background: linear-gradient(180deg, rgba(240, 162, 178, 1) 90%, rgba(255, 255, 255, 1) 100%);
+}
+
+.bg-gradient-sponsors {
+    background: rgb(240, 162, 178);
+    background: linear-gradient(356deg, rgba(240, 162, 178, 1) 0%, rgba(255, 255, 255, 1) 38%);
+}
+
 .bg-lightpink {
-    background: #F0A2B2;
+    background: rgb(240, 162, 178);
 }
 
 .nav-link:hover {
@@ -154,60 +164,22 @@ h3 {
     border-radius: 1rem;
 }
 
-.exposiciones {
-    background: url(../img/contenido/exposiciones.jpg) no-repeat bottom center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+.card {
+    border-radius: 1rem;
+    border-width: 0px;
+    box-shadow: -8px -8px 16px #dd95a4,
+        8px 8px 16px #ffafc0;
 }
 
-.pasarela {
-    background: url(../img/contenido/pasarela.jpg) no-repeat bottom center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+.card-logo {
+    border-radius: 16px;
+    box-shadow: 17px -17px 34px #d18d9b,
+        -17px 17px 34px #ffb7c9;
+
 }
 
-.conferencias {
-    background: url(../img/contenido/conferencias.jpg) no-repeat bottom center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.alimentos {
-    background: url(../img/contenido/zona-alimentos.jpg) no-repeat bottom center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.sustentable {
-    background: url(../img/contenido/boda-sustentable.jpg) no-repeat bottom center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.amenidades {
-    background: url(../img/contenido/amenidades.jpg) no-repeat bottom center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.lgbt {
-    background: url(../img/contenido/lgbt.jpg) no-repeat bottom center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+.card-img-top {
+    border-radius: 1rem;
 }
 
 .centro-morelos {
@@ -217,4 +189,25 @@ h3 {
 
 .bg-red {
     background: rgba(117, 20, 20, 0.5);
+}
+
+/* ====== countdown ============== */
+
+
+.countdown .timeel {
+    display: inline-block;
+    padding: 5px;
+    background: #DF1A8D;
+    margin-bottom: 1rem;
+    color: white;
+    min-width: 2.6rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.countdown span[class*="timeRef"] {
+    border-radius: 0.5rem;
+    margin-left: 0;
+    background: none;
+    color: black;
 }
