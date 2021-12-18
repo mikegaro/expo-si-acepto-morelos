@@ -194,15 +194,23 @@ h3 {
 /* ====== countdown ============== */
 
 
+.countdown {
+    background-color: rgba(240, 142, 161, 0.9);
+    margin: 1rem 0;
+    border-radius: 15px;
+    box-shadow: 17px -17px 34px #d18d9b,
+        -17px 17px 34px #ffb7c9;
+}
+
 .countdown .timeel {
     display: inline-block;
     padding: 5px;
     background: #DF1A8D;
-    margin-bottom: 1rem;
+    margin-bottom: 0.1rem;
     color: white;
     min-width: 2.6rem;
     border-radius: 5px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .countdown span[class*="timeRef"] {
